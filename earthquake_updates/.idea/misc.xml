@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:de6b555d77deb04a2eb7eba7dad07cc878976266dea4da1f50e843835a394960
-size 930
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/earthquake_updates/app/src/main/res/drawable/magnitude_circle.xml" value="0.221875" />
+        <entry key="..\:/AndroidStudioProjects/earthquake_updates/app/src/main/res/layout/activity_main.xml" value="0.14221014492753623" />
+        <entry key="..\:/AndroidStudioProjects/earthquake_updates/app/src/main/res/layout/list_item.xml" value="0.14221014492753623" />
+        <entry key="..\:/projects android/earthquake_updates/app/src/main/res/layout/activity_main.xml" value="0.21614583333333334" />
+        <entry key="..\:/projects android/earthquake_updates/app/src/main/res/layout/list_item.xml" value="0.21614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
