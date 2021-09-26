@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity
             // because this activity implements the LoaderCallbacks interface).
             loaderManager.initLoader(EARTHQUAKE_LOADER_ID, null, this);
             earthquakeListView.setAdapter(mAdapter);
-
         }
         else {
             // Otherwise, display error

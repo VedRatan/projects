@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8a5a5f4941c5e4d58a00ccf4046171b3db0446166cee26ad42f4d1b2f5190f1
-size 1557
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/guitar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/play_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="cursive"
+        android:text="play now In The End Remix (Alan Walker)"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pause_button"
+        android:layout_centerInParent="true"
+        android:onClick="play1"
+        android:text="play"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pause_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="pause1"
+        android:text="pause"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/pause_button"/>
+</RelativeLayout>
